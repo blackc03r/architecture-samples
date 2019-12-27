@@ -1,0 +1,17 @@
+name: Prof.Dr_Squifz
+
+on: [push]
+
+jobs:IT/IS
+  build:
+
+    runs-on: https://mobile.twitter.com/o_phy0m1n2hu
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Prof.Dr_Squidz,IV!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
